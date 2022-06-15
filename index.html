@@ -10,56 +10,79 @@
 </head>
 <body>
     <header>
-        <h1 class="center">Matthew Larson</h1>
+        <h1 class="displayheader">Matthew Larson Business Portfolio</h1>
         <nav>
-            <ul>
+            <ul class="displaynav">
                 <li>
-                    <a class="displaynav" href="#about-me">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a class="displaynav" href="#work">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a class="displaynav" href="#contact-me">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a class="displaynav" href="#resume">Resume</a>
+                    <a href="#resume">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div id="about-me">
-        <section>
-            <h2 class="contentheading">About Me</h2>
-            <p>
-                Have you ever read a webpage or document that used this text without paying much attention to it? The lorem ipsum is a placeholder text used in publishing and graphic design. This filler text is a short paragraph that contains all the letters of the alphabet. The characters are spread out evenly so that the reader’s attention is focused on the layout of the text instead of its content. Many software programs and applications have made it their default dummy text. Since the lorem ipsum is always used as a placeholder text, its use indicates that this is not a final version of a document, thus helping to avoid unnecessary printing.
-            </p>
-        </section>
-    </div>
+    <div class="testbackground"></div>
 
-    <div id="work">
-        <section>
+    <section class="aboutmesection" id="about-me">
+        <div class="content">
+            <h2 class="contentheading">About Me</h2>
+            <img src="./assets/cat.jpg" alt="MatthewLarson">
+            <p>
+                Have you ever read a webpage or document that used this text without paying much attention to it? The lorem ipsum is a placeholder text used in publishing and graphic design. This filler text is a short paragraph that contains all the letters of the alphabet. The characters are spread out evenly so that the reader’s attention is focused on the layout of the text instead of its content. Many software programs and applications have made it their default dummy text.
+            </p>
+        </div>
+    </section>
+
+    <section class="worksection" id="work">
+        <div class="content">
             <h2 class="contentheading">Work</h2>
             <p>
-                THIS WILL BE MY WORK.
+                Have you ever read a webpage or document that used this text without paying much attention to it? The lorem ipsum is a placeholder text used in publishing and graphic design. This filler text is a short paragraph that contains all the letters of the alphabet. The characters are spread out evenly so that the reader’s attention is focused on the layout of the text instead of its content. Many software programs and applications have made it their default dummy text.
             </p>
-        </section>
-    </div>
+            <ul>
+                <li>
+                    <a class="github" href="https://github.com/matthewtlarson" target="_blank">Check out my work here!</a>
+                </li>
+            </ul>
+        </div>
+        
+    </section>
 
     <div id="contact-me">
-        <section>
-            <nav>
+        <section class="contactsection">
+            <nav class="contactmelist">
                 <ul>
                     <h2 class="contentheading">Contact Me</h2>
                     <li>
                         <a class="contact">Email: Matthewtlarson@email.arizona.edu</a>
                     </li>
                     <li>
-                        <a class="contact" href="https://www.linkedin.com/in/matthew-larson51/">Linked In</a>
+                        <a class="contact" href="https://www.linkedin.com/in/matthew-larson51/" target="_blank">Linked In</a>
+                    </li>
+                    <li>
+                        <a class="contact">Telephone: 650-400-1884</a>
                     </li>
                 </ul>
             </nav>
+        </section>
+    </div>
+
+    <div id="resume">
+        <section class="resumesection">
+            <div>
+                <h2 class="contentheading">Resume</h2>
+                <p>
+                    here is my resume
+                </p>
+            </div>
         </section>
     </div>
 
