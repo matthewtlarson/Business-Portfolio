@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(173, 160, 160);
+    background-color: rgb(196, 186, 186);
 }
 
 header {
@@ -25,4 +25,35 @@ header div {
 
 header div ul {
     list-style-type: none;
+}
+
+header nav ul li {
+    display:inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.contentheading {
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact {
+    color: black;
+}
+
+.displaynav {
+    float: right;
 }
