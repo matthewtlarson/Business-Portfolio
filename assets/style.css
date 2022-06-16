@@ -25,15 +25,14 @@ a {
     text-decoration: none;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    color: black;
+img {
+    width: 200px;
+    height: 200px;
 }
-
-.workcentering {
-    display: flex;
-    justify-content: center;
+    
+p {
+    margin: 25px;
+    color: rgb(0, 0, 0);
 }
 
 .contentheading {
@@ -43,19 +42,17 @@ a {
     justify-content: center;
 }
 
-.workspecificheading {
-        color: rgb(0, 0, 0);
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
 #about-me {
     padding: 5px;
     margin-bottom: 20px;
 }
 
 #work {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#contact-me {
     padding: 5px;
     margin-bottom: 20px;
 }
@@ -79,16 +76,6 @@ a {
     flex-wrap: wrap;
 }
 
-img {
-width: 200px;
-height: 200px;
-}
-
-p {
-    margin: 25px;
-    color: rgb(0, 0, 0);
-}
-
 .backgroundimage {
     height: 800px;
     width: 100%;
@@ -102,25 +89,12 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-.contentwork {
-    display: inline-block;
-    margin-left: 20px;
-}
 
-.worklink {
+.contentwork {
     display: flex;
     display: block;
     justify-content: center;
     color: rgb(0, 0, 0);
-}
-
-.actualss {
-    display: flex;
-    justify-content: flex-end;
-    color: rgb(0, 0, 0);
-    margin-left: 50%;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
 }
 
 .aboutmesection {
@@ -140,6 +114,7 @@ p {
     background-color: #bdc9fb;
     color: #ffffff;
 }
+
 .worksection {
     margin: 20px;
     padding: 50px;
@@ -159,8 +134,5 @@ p {
 }
 
 ul {
-    list-style-type: none;
-}
-
-/*.images
+    list-style-type: none
 }
