@@ -11,20 +11,8 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(90, 116, 155);
+    background-color: rgb(50, 82, 129);
     color: white;
-}
-
-header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-header div ul {
-    list-style-type: none;
 }
 
 header nav ul li {
@@ -43,13 +31,24 @@ a {
     color: black;
 }
 
+.workcentering {
+    display: flex;
+    justify-content: center;
+}
+
 .contentheading {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
+.workspecificheading {
+        color: rgb(0, 0, 0);
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
 
 #about-me {
     padding: 5px;
@@ -62,11 +61,7 @@ a {
 }
 
 .contact {
-    color: rgb(255, 255, 255);
-}
-
-.github {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .displaynav {
@@ -85,31 +80,47 @@ a {
 }
 
 img {
-    margin-right: 25px;
 width: 200px;
 height: 200px;
-float: left;
 }
 
 p {
     margin: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
-/*.workimage {
-    background-image: url("./workex.jpeg");
-    display: flex;
-    align-items: right;
+.backgroundimage {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./coverphoto.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 250px;
-    max-height: 250px;
-}*/
-
+}
 
 .content {
     display: inline-block;
     margin-left: 20px;
+}
+.contentwork {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.worklink {
+    display: flex;
+    display: block;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.actualss {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(0, 0, 0);
+    margin-left: 50%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 
 .aboutmesection {
@@ -117,7 +128,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #6c7cbb;
+    background-color: #bdc9fb;
     color: #ffffff;
 }
 
@@ -126,16 +137,16 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #6c7cbb;
+    background-color: #bdc9fb;
     color: #ffffff;
 }
 .worksection {
     margin: 20px;
     padding: 50px;
-    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #6c7cbb;
+    background-color: #bdc9fb;
     color: #ffffff;
+    height: 300px;
 }
 
 .contactsection {
@@ -143,7 +154,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #6c7cbb;
+    background-color: #bdc9fb;
     color: #ffffff;
 }
 
@@ -151,6 +162,5 @@ ul {
     list-style-type: none;
 }
 
-.images {
-    
+/*.images
 }
